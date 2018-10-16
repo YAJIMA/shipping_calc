@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+h1 {
+    border-bottom: 3px solid #009900;
+    font-size: 2.2rem;
+    padding: 0.4em 0.2em;
+}
+p {
+    padding: 0.4em;
+}
+.row {
+    margin: 2em auto;
+}
+
+
+/* 検索結果テーブル */
+.result_table {
+}
+.result_table .row {
+    margin: 0;
+    border-bottom: 0.5px solid #808080;
+}
+.result_table .rank,
+.result_table .price {
+    padding: 15px 20px;
+}
+.result_table .rank {
+    
+}
+.result_table .price {
+    font-weight: bold;
+}
+@media (min-width: 576px) {
+
+}
